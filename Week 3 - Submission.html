@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alister's Form</title>
+</head>
+<style>
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: ghostwhite;
+    }
+
+    .form {
+        width: 30%;
+        margin: 20px auto;
+        padding: 20px;
+        text-align: justify;
+        border: 1px solid darkgray;
+        background-color: white;
+        box-shadow: 5px 5px 4px grey;
+    }
+
+    .f {
+        height: 30px;
+    }
+
+    .j {
+        width: 30%;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .input {
+        width: 100% !important;
+        height: 30% !important;
+        text-align: justify !important;
+    }
+</style>
+
+<body>
+    <form action="" class="form">
+        <div class="">
+            <h1>Form</h1>
+            Please fill up the form
+            <br>
+            <br>
+            <div class="">
+                <input class="f" type="text" placeholder="First Name">
+                <input class="f" type="text" placeholder="Last Name">
+            </div>
+            <br>
+            <div class="">
+                <input class="j" type="number" placeholder="Age">
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label>Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label>Female</label>
+            </div>
+            <br>
+            <div class="f">
+                <label>Whta phone do you use:</label>
+                <select class="f" id="" name="">
+                    <option class="f" value="">Android</option>
+                    <option class="f" value="">IOS</option>
+                    <option class="f" value="">Both</option>
+                </select>
+            </div>
+            <br>
+            <textarea class="input" rows="10" placeholder="A brief description of yourself"></textarea>
+            <br>
+            <br>
+            <input class="f" type="submit">
+
+        </div>
+    </form>
+    <footer style="text-align: center;">
+        Alister's Form
+    </footer>
+</body>
+
+</html>
