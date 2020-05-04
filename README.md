@@ -3,6 +3,6 @@ This project is made by me, Alister Animesh Baroi, who reserves the coryright of
 This is a simple personal form project.
 
 | Languages |
-| HTML |
-| CSS |
+| HTML      |
+| CSS       |
 Enjoy
